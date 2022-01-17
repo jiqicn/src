@@ -44,7 +44,7 @@ For more knowledge of conda, please refer to the [official documentation](https:
 
 ```shell
 conda install ipykernel
-sudo -E /path/to/miniconda/bin/python -m IPython kernel install --prefix=/usr/local --name=<kernel-name>
+sudo -E /path/to/miniconda/env/bin/python -m IPython kernel install --prefix=/usr/local --name=<kernel-name>
 ```
 
 Now, all the users should be able to see the installed kernel and use it. 
